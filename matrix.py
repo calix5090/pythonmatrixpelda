@@ -14,7 +14,7 @@ def matrix_kiir(m,space=3):
 
 s=3
 o=4
-
+ 
 matrix=[[0]*o for i in range(s)]
 
 e=0
