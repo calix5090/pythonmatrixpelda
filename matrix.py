@@ -8,7 +8,7 @@ def matrix_kiir(m,space=3):
 
     for i in range(s):
         for j in range(o):
-            print("{:^5}".format(m[i][j]),end="")
+            print("{0:^{s}}".format(m[i][j],s=space),end="")
         print()
 
 
@@ -24,4 +24,4 @@ for i in range(s):
         e=e+1
 
 #print(matrix)
-matrix_kiir(matrix)
+matrix_kiir(matrix,5)
