@@ -17,7 +17,7 @@ o=4
  
 matrix=[[0]*o for i in range(s)]
 
-e=0
+e=10
 for i in range(s):
     for j in range(o):
         matrix[i][j]=e
