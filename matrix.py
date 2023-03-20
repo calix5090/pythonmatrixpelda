@@ -28,6 +28,8 @@ for i in range(s):
 
 #print(matrix)
 matrix_kiir(matrix,5)
+print()
+
 
 ujra=True
 
@@ -42,5 +44,5 @@ while ujra:
     except ValueError:
         print("A szám nem értelmezhető! (újra!)")
 
-
+print()
 print("A szám négyzete: {0}".format(i*i))
