@@ -1,4 +1,7 @@
 import random
+import os
+
+os.system('cls||clear')
 
 def matrix_kiir(m,space=3):
     s=len(m)
