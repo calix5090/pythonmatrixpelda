@@ -37,7 +37,7 @@ while ujra:
     try:
         s=input("Kérek egy (1...100) egészszámot: ")
         i=int(s)
-        if i>0 and i<100 :
+        if i>0 and i<=100 :
             ujra=False
         else:
             print("A szám nem megfelelő értékű! (újra!)")
