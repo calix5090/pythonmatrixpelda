@@ -17,7 +17,7 @@ o=4
  
 matrix=[[0]*o for i in range(s)]
 
-e=0
+e=1
 for i in range(s):
     for j in range(o):
         matrix[i][j]=e
@@ -25,3 +25,19 @@ for i in range(s):
 
 #print(matrix)
 matrix_kiir(matrix,5)
+
+ok=True
+
+while ok:
+    try:
+        s=input("Kérek egy (1...100) egészszámot: ")
+        i=int(s)
+        if i>0 and i<100 :
+            ok=False
+        else:
+            print("A szám nem megfelelő értékű! (újra!)")
+    except ValueError:
+        print("A szám nem értelmezhető! (újra!)")
+
+
+print("A szám négyzete: {0}".format(i*i))
