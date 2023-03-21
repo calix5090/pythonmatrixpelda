@@ -44,5 +44,5 @@ while ujra:
     except ValueError:
         print("A szám nem értelmezhető! (újra!)")
 
-print()
 print("A szám négyzete: {0}".format(i*i))
+print(f"Ez egy f-szting kiírása az i változónak: {i:>9}")
